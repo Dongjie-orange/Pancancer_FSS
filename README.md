@@ -47,7 +47,7 @@ The script performs Gene Set Variation Analysis (GSVA) to calculate the S_CAF sc
   
 The differentially expressed genes with an adjusted p-value less than 1e-05 are stored in `FSy_list`.
 
-### Step 3: LM.SIG Construction
+### Step 3: FSS Construction
 - **Objective**: This step constructs the final gene signature by combining the results from FSx and FSy.
   - **FSx filtering**: Only genes with a positive correlation coefficient (`coef > 0`) and a highly significant p-value (adjusted p-value < 1e-05) are selected.
   - **FSy filtering**: Only genes with a log fold-change greater than 0.25 are kept, and ribosomal proteins (denoted by gene names starting with "RP") are excluded.
