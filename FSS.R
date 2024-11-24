@@ -82,7 +82,7 @@ FSy_list <- pbapply::pblapply(
 names(FSy_list) <- names(scRNA_list)
 
 # ----------------------------------------------------------------------------------
-# Step 3: LM.SIG Construction
+# Step 3: FSS Construction
 # ----------------------------------------------------------------------------------
 
 # Verify FSx and FSy have identical structure
